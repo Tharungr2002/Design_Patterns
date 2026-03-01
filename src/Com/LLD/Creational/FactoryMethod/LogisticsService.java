@@ -1,6 +1,6 @@
-package Com.LLD.FactoryMethod;
+package Com.LLD.Creational.FactoryMethod;
 
-import Com.LLD.FactoryMethod.Interface.Logistics;
+import Com.LLD.Creational.FactoryMethod.Interface.Logistics;
 
 public class LogisticsService {
     public void send(String mode) {

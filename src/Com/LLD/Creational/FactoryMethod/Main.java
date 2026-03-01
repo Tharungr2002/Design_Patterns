@@ -1,6 +1,4 @@
-package Com.LLD.FactoryMethod;
-
-import Com.LLD.FactoryMethod.Interface.Logistics;
+package Com.LLD.Creational.FactoryMethod;
 
 public class Main {
     public static void main(String[] args) {

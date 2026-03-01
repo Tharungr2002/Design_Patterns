@@ -1,4 +1,4 @@
-package Com.LLD.BuilderPattern;
+package Com.LLD.Creational.BuilderPattern;
 
 import java.util.List;
 

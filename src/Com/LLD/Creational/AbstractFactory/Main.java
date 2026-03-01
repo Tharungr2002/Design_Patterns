@@ -1,7 +1,7 @@
-package Com.LLD.AbstractFactory;
+package Com.LLD.Creational.AbstractFactory;
 
-import Com.LLD.AbstractFactory.interfaces.Checkout;
-import Com.LLD.AbstractFactory.interfaces.IndiaRegoin;
+import Com.LLD.Creational.AbstractFactory.interfaces.Checkout;
+import Com.LLD.Creational.AbstractFactory.interfaces.IndiaRegoin;
 
 public class Main{
     public static void main(String[] args) {

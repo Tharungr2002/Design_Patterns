@@ -1,4 +1,4 @@
-package Com.LLD.AbstractFactory.interfaces;
+package Com.LLD.Creational.AbstractFactory.interfaces;
 
 public class IndiaRegoin implements RegionFactory {
 

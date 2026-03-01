@@ -1,6 +1,4 @@
-package Com.LLD.Singleton;
-
-import java.util.*;
+package Com.LLD.Creational.Singleton;
 
 public class Main {
     public static void main(String[] args) {

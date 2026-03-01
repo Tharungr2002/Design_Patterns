@@ -1,4 +1,4 @@
-package Com.LLD.Singleton;
+package Com.LLD.Creational.Singleton;
 
 public class Singleton {
     int count=0;

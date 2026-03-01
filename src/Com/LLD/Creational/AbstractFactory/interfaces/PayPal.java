@@ -1,4 +1,4 @@
-package Com.LLD.AbstractFactory.interfaces;
+package Com.LLD.Creational.AbstractFactory.interfaces;
 
 public class PayPal implements PaymentGateway{
     public void processPayment(double amount) {

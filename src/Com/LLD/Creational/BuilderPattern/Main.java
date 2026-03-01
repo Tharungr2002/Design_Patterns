@@ -1,4 +1,4 @@
-package Com.LLD.BuilderPattern;
+package Com.LLD.Creational.BuilderPattern;
 
 public class Main {
     public static void main(String[] args) {
