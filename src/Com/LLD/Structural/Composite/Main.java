@@ -74,6 +74,7 @@ public class Main {
         List<CartItem> cart = new ArrayList<>();
         cart.add(pb);
         cart.add(pb2);
+        cart.add(iphone);
         int tot =0;
         for(CartItem it : cart) {
             tot += it.getPrice();
