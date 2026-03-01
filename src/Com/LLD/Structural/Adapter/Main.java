@@ -1,5 +1,7 @@
 package Com.LLD.Structural.Adapter;
 
+import javax.swing.*;
+
 interface Payment{
     void makePayment();
 }
@@ -31,10 +33,22 @@ class PayUAdapter implements Payment {
     }
 }
 
+class Checkout{
+    Payment payment;
+
+    Checkout(Payment payment) {
+        this.payment = payment;
+    }
+
+    public void processPayment() {
+        payment.makePayment();
+    }
+}
+
 
 public class Main {
     public static void main(String[] args) {
-        Payment payment = new Razorpay();
-        payment.makePayment();
+        Checkout checkout = new Checkout(new PayUAdapter());
+        checkout.processPayment();
     }
 }
