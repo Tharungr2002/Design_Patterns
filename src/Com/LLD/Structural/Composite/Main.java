@@ -58,18 +58,18 @@ class ProductBundle implements CartItem {
 
 public class Main {
     public static void main(String[] args) {
-        CartItem iphone = new Product("iphone 11", 50);
+        CartItem iphone = new Product("iphone 11", 50);     //product
         CartItem samsung = new Product("samsung", 50);
         CartItem nokia = new Product("nokia", 50);
         CartItem redmi = new Product("redmi 11", 50);
 
-        ProductBundle pb = new ProductBundle("phone");
+        ProductBundle pb = new ProductBundle("phone");        //productBundle
         pb.addProduct(samsung);
         pb.addProduct(iphone);
         pb.addProduct(nokia);
 
         ProductBundle pb2 = new ProductBundle("another phone");
-        pb2.addProduct(redmi);
+        pb2.addProduct(redmi);                                                    //productBundle
 
         List<CartItem> cart = new ArrayList<>();
         cart.add(pb);
